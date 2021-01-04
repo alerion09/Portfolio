@@ -3,14 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Cardo', serif;
 }
-body
+html
 {
     font-size: 62,5%;
+}
+body
+{   
+    font-size: 1.2rem;
     width: 100%;
     height: 100%;
     background-color: rgb(65, 65, 65);
     color: azure;
+    
 }
 .container
 {
@@ -25,8 +31,14 @@ section
     align-items: center;
     justify-content: center;
     width: 90%;
-    border: solid 1px olive;
     padding-bottom: 5%;
+}
+header
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    width: 100%;
 }
 footer
 {
@@ -35,14 +47,6 @@ footer
     align-items: center;
     width: 100%;
     padding: 5%;
-}
-header
-{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    border: solid 1px orange;
-    width: 100%;
 }
 ul
 {
@@ -61,18 +65,22 @@ button
     color: azure;
     text-decoration: none;
     border: none;
+    outline: none;
     background-color: transparent;
+    font-size: 1.2rem;
 }
 nav
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 1px orange;
+    display: none;
 }
 h2
-{
-    font-size: 1.5rem;
+{   
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
     padding-bottom:5%;
     padding-top: 5%;
 }
@@ -81,6 +89,17 @@ h2
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: solid 1px orange;
     padding: 3%;
+}
+.menu_icon_line
+{
+    width: 30px;
+    height: 4px;
+    background-color:azure;
+    margin: 4px;
+    border-radius: 1px;
+}
+.border
+{
+    border: solid 1px orange;
 }

@@ -12,28 +12,51 @@ body
     background-color: rgb(65, 65, 65);
     color: azure;
 }
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 section
 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 90%;
+    border: solid 1px olive;
+    padding-bottom: 5%;
 }
 footer
 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 5%;
 }
 header
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 80%;
+    border: solid 1px orange;
+    width: 100%;
 }
 ul
 {
     list-style-type: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-ul button
+li
+{
+    padding:5%;
+}
+button
 {   
     color: azure;
     text-decoration: none;
@@ -43,6 +66,21 @@ ul button
 nav
 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px orange;
+}
+h2
+{
+    font-size: 1.5rem;
+    padding-bottom:5%;
+    padding-top: 5%;
+}
+.name_and_menu_button
+{
+    display: flex;
     flex-direction: row;
-    margin-left: auto;
+    justify-content: space-between;
+    border: solid 1px orange;
+    padding: 3%;
 }

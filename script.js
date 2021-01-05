@@ -3,6 +3,7 @@ function appStart()
 {
     const menu_button = document.getElementById('menu_button');
     menu_button.addEventListener('click', toggleMenu, false);
+    
 
     function toggleMenu()
     {

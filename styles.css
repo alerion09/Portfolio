@@ -8,6 +8,7 @@
 html
 {
     font-size: 62,5%;
+    scroll-behavior: smooth;
 }
 body
 {   
@@ -16,7 +17,6 @@ body
     height: 100%;
     background-color: #333533;
     color: #e8eddf;
-    
 }
 .container
 {
@@ -32,14 +32,16 @@ section
     justify-content: center;
     width: 90%;
     padding-bottom: 5%;
+    
+    scroll-margin-top: 50px;
+
 }
 header
-{
+{   
     display: flex;
     flex-direction: column;
-    width: 80%;
     width: 100%;
-    margin-bottom: 15%;
+    position: fixed;
 }
 footer
 {
@@ -63,12 +65,10 @@ li
 }
 button
 {   
-    color: azure;
     text-decoration: none;
     border: none;
     outline: none;
     background-color: transparent;
-    font-size: 1.2rem;
 }
 .navigation
 {
@@ -88,13 +88,14 @@ h2
 }
 .name_and_menu_button
 {   
-    height: 50px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 3%;
     background-color:  #f5cb5c;
+    height: 50px;
 }
 .menu_icon_line
 {
@@ -115,15 +116,28 @@ h2
     position: absolute;
     
 }
-.ul_menu_list button
-{   
-    font-family: 'Oswald', sans-serif;
-    color: #242423;
-}
 .ul_menu_list li
 {       
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 15px;
+}
+.ul_menu_list a
+{   
+    font-family: 'Oswald', sans-serif;
+    outline: none;
+    text-decoration: none;
+    color: #242423;
+}
+p
+{
+    text-align:center;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
 }

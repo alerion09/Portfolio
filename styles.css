@@ -136,6 +136,13 @@ h2
     color: #f5cb5c;
     text-align: center;
 }
+h3
+{   
+    font-size: 1.8rem;
+    font-family: 'Oswald', sans-serif;
+    color: #f5cb5c;
+    text-align: center;
+}
 p
 {
     text-align:center;

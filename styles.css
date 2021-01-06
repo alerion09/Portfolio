@@ -42,6 +42,7 @@ header
     flex-direction: column;
     width: 100%;
     position: fixed;
+    top: 0;
 }
 footer
 {
@@ -123,7 +124,7 @@ h2
     width: 100%;
     padding: 15px;
 }
-.ul_menu_list a
+a
 {   
     font-family: 'Oswald', sans-serif;
     outline: none;

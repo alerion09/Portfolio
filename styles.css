@@ -49,7 +49,7 @@ section
     align-items: center;
     justify-content: center;
     width: 90%;
-    padding-bottom: 5%;
+    margin-bottom: 20%;
     padding-top: 50px;
     margin-top: -50px;
 }
@@ -130,7 +130,7 @@ a
 h2
 {   
     font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-bottom:5%;
     padding-top: 5%;
     color: rgb(245, 203, 92);
@@ -185,4 +185,18 @@ p
 {
     display: flex;
     justify-content: center;
+}
+.skills_images
+{   
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills_images img
+{
+    width: 100px;
+    margin-top: 15%;
 }

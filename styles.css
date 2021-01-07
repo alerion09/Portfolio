@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cardo', serif;
+    /* font-family: 'Cardo', serif; */
 }
 html
 {
@@ -111,7 +111,7 @@ button
 }
 .menu_name
 {   
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     color: #242423;
 }
 .ul_menu_list
@@ -131,14 +131,14 @@ button
 }
 a
 {   
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     outline: none;
     text-decoration: none;
     color: rgb(36, 36, 35);
 }
 h2
 {   
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     font-size: 2rem;
     padding-bottom:5%;
     padding-top: 5%;
@@ -148,7 +148,7 @@ h2
 h3
 {   
     font-size: 1.8rem;
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     color: rgb(245, 203, 92);
     text-align: center;
 }

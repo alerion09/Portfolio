@@ -62,7 +62,7 @@
                 
             </section>
             <section id="projects">
-                <h2>PROJECTS</h2>
+                <h2 class="h2_margin">PROJECTS</h2>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur molestiae et porro. 
                     Commodi, pariatur. Suscipit illo maiores exercitationem asperiores nisi, animi ipsa optio quia, corrupti eos, sed aliquid expedita?
@@ -81,13 +81,15 @@
                 </p>
             </section> 
             <section id="contact">
-                <h2>CONTACT</h2>
-                <form action="POST" data-netlify="true" name="contact">
-                    <input type="text" name="name" id="form_name" placeholder="Name">
-                    <input type="text" name="email" id="form_email" placeholder="Email"> 
-                    <textarea name="message" id="form_message" cols="30" rows="10"></textarea>
+                <h2 class="h2_margin">CONTACT</h2>
+                <form class="form_contact" action="POST" data-netlify="true" name="contact">
+                    <input class="form_input" type="text" name="name" placeholder="Name">
+                    <input class="form_input" type="text" name="email" placeholder="Email"> 
+                    <textarea class="form_input" name="message" cols="30" rows="10"></textarea>
                     <div data-netlify-recaptcha="true"></div>
-                    <input type="submit" value="Send message">
+                    <div class="div_form_submit">
+                        <input class="form_submit" type="submit" value="Send message">
+                    </div>
                 </form>
             </section>
             <footer>

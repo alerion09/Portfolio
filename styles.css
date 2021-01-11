@@ -13,10 +13,10 @@ html
 }
 body
 {   
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 100%;
     background-color: rgb(51, 53, 51);
-    color: #e8eddf;
+    color: rgb(232, 237, 223);
 }
 @keyframes drop-down
 {
@@ -52,6 +52,10 @@ section
     margin-bottom: 20%;
     padding-top: 50px;
     margin-top: -50px;
+}
+input, textarea
+{
+    font-size: 1.1rem;
 }
 footer
 {
@@ -130,11 +134,15 @@ a
 h2
 {   
     font-family: 'Oswald', sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     padding-bottom:5%;
     padding-top: 5%;
     color: rgb(245, 203, 92);
     text-align: center;
+}
+.h2_margin
+{
+    margin:10%;
 }
 h3
 {   
@@ -146,11 +154,6 @@ h3
 p
 {
     text-align:center;
-}
-form
-{
-    display: flex;
-    flex-direction: column;
 }
 .content
 {
@@ -204,4 +207,47 @@ form
 {
     width: 100px;
     margin-top: 15%;
+}
+.form_contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.form_input
+{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(36, 36, 35);
+    color: rgb(245, 203, 92);
+    padding: 10px;
+}
+.form_contact input::placeholder
+{
+    color:rgba(245, 204, 92, 0.384);
+}
+.form_contact input
+{   
+    margin-bottom: 20px;
+}
+.form_contact textarea
+{
+    resize: none;
+}
+.div_form_submit
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_submit
+{   
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 40px;
+    width: 50%;
+    background-color: rgb(245, 203, 92);
+    font-weight: bold;
 }

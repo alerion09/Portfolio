@@ -82,16 +82,13 @@
             </section> 
             <section id="contact">
                 <h2>CONTACT</h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur molestiae et porro. Commodi, pariatur. 
-                    Suscipit illo maiores exercitationem asperiores nisi, animi ipsa optio quia, corrupti eos, sed aliquid expedita?
-                </p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur molestiae et porro. Commodi, pariatur. 
-                    Suscipit illo maiores exercitationem asperiores nisi, liquid expedita?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     Libero delectus ipsam, iusto molestiae laudantium, error ea ex 
-                    eque debitis animi itaque accusantium reprehenderit reiciendis necessitatibus unde impedit exercitationem beatae. Eius.
-                </p>
+                <form action="POST" data-netlify="true" name="contact">
+                    <input type="text" name="name" id="form_name" placeholder="Name">
+                    <input type="text" name="email" id="form_email" placeholder="Email"> 
+                    <textarea name="message" id="form_message" cols="30" rows="10"></textarea>
+                    <input type="data-netlify-recaptcha">
+                    <input type="submit" value="Send message">
+                </form>
             </section>
             <footer>
                 <div class="footer_div">

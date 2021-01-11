@@ -130,7 +130,7 @@ a
 h2
 {   
     font-family: 'Oswald', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     padding-bottom:5%;
     padding-top: 5%;
     color: rgb(245, 203, 92);
@@ -146,6 +146,11 @@ h3
 p
 {
     text-align:center;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
 }
 .content
 {

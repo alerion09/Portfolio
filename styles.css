@@ -223,7 +223,7 @@ p
     color: rgb(245, 203, 92);
     padding: 10px;
 }
-.form_contact input::placeholder
+.form_contact input::placeholder, textarea::placeholder
 {
     color:rgba(245, 204, 92, 0.384);
 }
@@ -250,4 +250,11 @@ p
     width: 50%;
     background-color: rgb(245, 203, 92);
     font-weight: bold;
+    text-align: center;
+}
+.captcha
+{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

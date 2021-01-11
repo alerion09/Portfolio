@@ -82,15 +82,21 @@
             </section> 
             <section id="contact">
                 <h2 class="h2_margin">CONTACT</h2>
-                <form class="form_contact" action="POST" data-netlify="true" name="contact">
-                    <input class="form_input" type="text" name="name" placeholder="Name">
-                    <input class="form_input" type="text" name="email" placeholder="Email"> 
-                    <textarea class="form_input" name="message" cols="30" rows="10" placeholder="Message..."></textarea>
-                    <div data-netlify-recaptcha="true" class="captcha"></div>
-                    <div class="div_form_submit">
-                        <input class="form_submit" type="submit" value="Send message">
-                    </div>
-                </form>
+                <div class="div_form_contact">
+                    <form action="POST" data-netlify="true" name="contact">
+                        <div>
+                            <input class="form_input" type="text" name="name" placeholder="Name">
+                            <input class="form_input" type="text" name="email" placeholder="Email"> 
+                        </div>
+                        <div class="div_textarea">
+                            <textarea class="form_input contact_textarea" name="message" placeholder="Message..."></textarea>
+                        </div>
+                        <div data-netlify-recaptcha="true" class="captcha"></div>
+                        <div class="div_form_submit">
+                            <input class="form_submit" type="submit" value="Send message">
+                        </div>
+                    </form>
+                </div>
             </section>
             <footer>
                 <div class="footer_div">

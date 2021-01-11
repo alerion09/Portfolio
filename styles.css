@@ -208,11 +208,11 @@ p
     width: 100px;
     margin-top: 15%;
 }
-.form_contact
+.div_form_contact
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     width: 80%;
 }
 .form_input
@@ -222,17 +222,15 @@ p
     background-color: rgb(36, 36, 35);
     color: rgb(245, 203, 92);
     padding: 10px;
+    margin-bottom: 20px;
 }
 .form_contact input::placeholder, textarea::placeholder
 {
     color:rgba(245, 204, 92, 0.384);
 }
-.form_contact input
-{   
-    margin-bottom: 20px;
-}
-.form_contact textarea
+.contact_textarea
 {
+    height: 200px;
     resize: none;
 }
 .div_form_submit
@@ -247,7 +245,7 @@ p
     border: none;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 50%;
     background-color: rgb(245, 203, 92);
     font-weight: bold;
@@ -257,5 +255,5 @@ p
 {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }

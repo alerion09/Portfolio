@@ -135,14 +135,10 @@ h2
 {   
     font-family: 'Oswald', sans-serif;
     font-size: 2.1rem;
-    padding-bottom:5%;
+    padding-bottom:15%;
     padding-top: 5%;
     color: rgb(245, 203, 92);
     text-align: center;
-}
-.h2_margin
-{
-    margin:10%;
 }
 h3
 {   
@@ -169,7 +165,6 @@ p
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin-top: 5%;
     margin-bottom: 10%;
 }
 .footer_div
@@ -206,7 +201,14 @@ p
 .skills_images img
 {
     width: 100px;
+}
+.img_margin
+{
     margin-top: 15%;
+}
+.div_form_contact input::placeholder, textarea::placeholder
+{
+    color:rgba(245, 204, 92, 0.384);
 }
 .div_form_contact
 {
@@ -216,21 +218,23 @@ p
     width: 80%;
 }
 .form_input
-{
+{   
     border: none;
     border-radius: 5px;
     background-color: rgb(36, 36, 35);
     color: rgb(245, 203, 92);
     padding: 10px;
     margin-bottom: 20px;
+    width: 100%;
 }
-.form_contact input::placeholder, textarea::placeholder
+.div_form_textarea
 {
-    color:rgba(245, 204, 92, 0.384);
+    width: 100%;
 }
 .contact_textarea
 {
     height: 200px;
+    width: 100%;
     resize: none;
 }
 .div_form_submit

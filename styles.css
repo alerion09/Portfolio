@@ -68,14 +68,6 @@ footer
     padding: 10px;
     font-size: 1rem;
 }
-ul
-{
-    list-style-type: none;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 li
 {
     padding:5%;
@@ -115,6 +107,14 @@ li
     font-family: 'Oswald', sans-serif;
     color: #242423;
 }
+ul
+{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 .ul_menu_list
 {
     background-color:  rgba(245, 204, 92, 0.973);
@@ -148,13 +148,15 @@ h2
 }
 h3
 {   
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-family: 'Oswald', sans-serif;
     color: rgb(232, 237, 223);
     text-align: center;
+    padding-top: 10px;
 }
 .hello
 {
+    font-size: 2rem;
     padding-bottom:30px;
 }
 p
@@ -272,8 +274,10 @@ p
 .projects_container
 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
 }
 .project_frame
 {
@@ -324,16 +328,20 @@ p
 {   
     section
     {
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
     h2
     {   
-        font-size: 2.5rem;
-        padding-bottom:60px;
+        font-size: 2.3rem;
+        padding-bottom:80px;
     }
     h3
     {
-        font-size: 2rem;
+        font-size: 1.9rem;
+    }
+    .hello
+    {
+        font-size: 2.2rem;
     }
     .photo_div
     {
@@ -364,19 +372,28 @@ p
 {   
     h2
     {
-        font-size: 2.7rem;
+        font-size: 2.4rem;
     }
     h3
     {
-        font-size: 2.2rem;
+        font-size: 1.7rem;
     }
     .hello
     {   
         padding-bottom:40px;
+        font-size: 2.3rem;
     }
     .photo_div
     {
         margin-bottom: 50px;
+    }
+    .skills_images
+    {   
+        margin-top: -50px;
+    }
+    .skills_images img
+    {
+        margin: 50px;
     }
     .projects_container
     {   
@@ -395,6 +412,18 @@ p
 }
 @media only screen and (min-width: 901px)
 {   
+    h2
+    {
+        font-size: 2.5rem;
+    }
+    h3
+    {
+        font-size: 1.8rem;
+    }
+    .hello
+    {   
+        font-size: 2.4rem;
+    }
     .skills_images
     {   
         margin-top: -60px;
@@ -412,9 +441,25 @@ p
 }
 @media only screen and (min-width: 1024px)
 {   
+    h2
+    {
+        font-size: 2.6rem;
+    }
+    h3
+    {
+        font-size: 1.8rem;
+    }
+    .hello
+    {   
+        font-size: 2.5rem;
+    }
     section
     {
         width:90%;
+    }
+    #about-me
+    {
+        width: 70%;
     }
     .menu
     {
@@ -443,23 +488,66 @@ p
         display: none;
     }
     .ul_menu_list
-    {
-        background-color:  transparent;
+    {   
+        height: 100%;
+        position: relative;
         animation-name: none;
         display: flex;
         flex-direction: row;
-        position: relative;
+        align-content: center;
+        justify-content: center;
     }
     .ul_menu_list li
     {       
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        padding: 2px;
+        width: 100px;
+        align-items: center;
+        padding: 0;
     }
-    
+    .skills_images
+    {   
+        margin-top: -80px;
+    }
+    .skills_images img
+    {
+        margin: 80px;
+        width: 140px;
+    }
 }
-@media only screen and (min-width: 1100px)
+@media only screen and (min-width: 1280px)
 {   
-    
+    h2
+    {
+        font-size: 2.7rem;
+    }
+    h3
+    {
+        font-size: 1.8rem;
+    }
+    .hello
+    {   
+        font-size: 2.6rem;
+    }
+    .photo_div
+    {
+        margin-bottom: 70px;
+    }
+    .skills_images
+    {   
+        margin-top: -90px;
+    }
+    .skills_images img
+    {
+        margin: 90px;
+    }
+}
+@media only screen and (min-width: 1366px)
+{   
+    #about-me
+    {
+        width: 50%;
+    }
+    #skills
+    {
+        width: 80%;
+    }
 }

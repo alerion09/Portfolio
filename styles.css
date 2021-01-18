@@ -37,6 +37,7 @@ header
     width: 100%;
     position: fixed;
     top: 0;
+    background-color:  rgb(245, 203, 92);
 }
 .menu
 {
@@ -98,8 +99,7 @@ li
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
-    background-color:  rgb(245, 203, 92);
+    padding: 20px;
     height: 50px;
 }
 .menu_icon_line
@@ -414,21 +414,19 @@ p
 {   
     section
     {
-        width:70%;
+        width:90%;
     }
     .menu
     {
         display: flex;
-        background-color:  rgb(245, 203, 92);
+        align-self: center;
+        width: 90%;
     }
     .name_and_menu_button
     {   
         width: 100%;
         display: flex;
         flex-direction: row;
-        padding: 3%;
-        background-color:  rgb(245, 203, 92);
-        height: 50px;
     }
     .menu_name
     {
@@ -451,7 +449,13 @@ p
         display: flex;
         flex-direction: row;
         position: relative;
-        height: 100%;
+    }
+    .ul_menu_list li
+    {       
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 2px;
     }
     
 }

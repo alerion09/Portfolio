@@ -353,7 +353,7 @@ p
     .project_frame
     {
         width: 400px;
-        height: 750px;
+        height: 800px;
     }
     .form_submit
     {   
@@ -390,7 +390,7 @@ p
     { 
         margin: 0 10px 100px 10px;
         width: 300px;
-        height: 600px;
+        height: 650px;
     }
 }
 @media only screen and (min-width: 901px)
@@ -407,7 +407,7 @@ p
     .project_frame
     {
         width: 350px;
-        height: 700px;
+        height: 750px;
     }
 }
 @media only screen and (min-width: 1024px)

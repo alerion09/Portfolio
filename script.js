@@ -4,25 +4,31 @@ function appStart()
     const navigation = document.querySelector('.navigation');
     const menu_button = document.getElementById('menu_button');
     const menu_link = document.querySelectorAll('.menu_link');
-    menu_button.addEventListener('click', toggleMenu, false);
     
-    for (let i=0; i< menu_link.length; i++)
+    
+    if (menu_button.style.display != 'none')
     {
-        menu_link[i].addEventListener('click', function(){
-            navigation.style.display = 'none';
-        }, false);
-    }
+        menu_button.addEventListener('click', toggleMenu, false);
 
-    function toggleMenu()
-    {
-        
-        if(navigation.style.display == 'initial')
+        for (let i=0; i< menu_link.length; i++)
         {
-            navigation.style.display = 'none';
+            menu_link[i].addEventListener('click', function(){
+                navigation.className = 'navigation';
+            }, false);
         }
-        else
+
+        function toggleMenu()
         {
-            navigation.style.display = 'initial';
+            
+            if(navigation.className == 'navigation_show')
+            {
+                navigation.className = 'navigation';
+            }
+            else
+            {
+                navigation.className = 'navigation_show';
+            }
         }
     }
 }
+    

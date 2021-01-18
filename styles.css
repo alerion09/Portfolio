@@ -49,9 +49,9 @@ section
     align-items: center;
     justify-content: center;
     width: 90%;
-    margin-bottom: 20%;
-    padding-top: 50px;
-    margin-top: -50px;
+    margin-bottom: 70px;
+    padding-top: 60px;
+    margin-top: -60px;
 }
 input, textarea
 {
@@ -62,8 +62,9 @@ footer
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    padding: 10%;
+    padding: 10px;
     font-size: 1rem;
 }
 ul
@@ -80,10 +81,15 @@ li
 }
 .navigation
 {
-    display: flex;
     flex-direction: column;
     align-items: center;
     display: none;
+}
+.navigation_show
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .name_and_menu_button
 {   
@@ -135,10 +141,10 @@ h2
 {   
     font-family: 'Oswald', sans-serif;
     font-size: 2.1rem;
-    padding-bottom:15%;
-    padding-top: 5%;
+    padding-bottom:40px;
     color: rgb(245, 203, 92);
     text-align: center;
+    width: 80%;
 }
 h3
 {   
@@ -146,6 +152,10 @@ h3
     font-family: 'Oswald', sans-serif;
     color: rgb(232, 237, 223);
     text-align: center;
+}
+.hello
+{
+    padding-bottom:30px;
 }
 p
 {
@@ -165,7 +175,7 @@ p
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin-bottom: 10%;
+    margin-bottom: 30px;
 }
 .footer_div
 {   
@@ -191,20 +201,18 @@ p
 }
 .skills_images
 {   
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .skills_images img
 {
     width: 100px;
-}
-.img_margin
-{
-    margin-top: 15%;
+    margin: 20px;
+
 }
 .div_form_contact input::placeholder, textarea::placeholder
 {
@@ -245,14 +253,14 @@ p
 }
 .form_submit
 {   
+    font-family: 'Oswald', sans-serif;
     -webkit-appearance: none;
     border: none;
     border-radius: 5px;
     padding: 10px;
     margin-top: 30px;
-    width: 50%;
+    width: 150px;
     background-color: rgb(245, 203, 92);
-    font-weight: bold;
     text-align: center;
 }
 .captcha
@@ -270,13 +278,15 @@ p
 .project_frame
 {
     width: 300px;
+    height: 600px;
     background-color:rgb(36, 36, 35);
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     border-radius: 10px;
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 .project_frame img
 {
@@ -291,6 +301,7 @@ p
     width: 70%;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 .project_one_button_container
 {
@@ -307,4 +318,144 @@ p
 .margin_bottom_0
 {
     margin-bottom: 0;
+}
+/* RESPONSIVE CSS FOR TABLETS AND SMALL DESKTOP SCREENS */
+@media only screen and (min-width: 601px)
+{   
+    section
+    {
+        margin-bottom: 80px;
+    }
+    h2
+    {   
+        font-size: 2.5rem;
+        padding-bottom:60px;
+    }
+    h3
+    {
+        font-size: 2rem;
+    }
+    .photo_div
+    {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+    .skills_images
+    {   
+        margin-top: -40px;
+    }
+    .skills_images img
+    {
+        width: 120px;
+        margin: 40px;
+    }
+    .project_frame
+    {
+        width: 400px;
+        height: 750px;
+    }
+    .form_submit
+    {   
+        width: 35%;
+    }
+}
+@media only screen and (min-width: 801px)
+{   
+    h2
+    {
+        font-size: 2.7rem;
+    }
+    h3
+    {
+        font-size: 2.2rem;
+    }
+    .hello
+    {   
+        padding-bottom:40px;
+    }
+    .photo_div
+    {
+        margin-bottom: 50px;
+    }
+    .projects_container
+    {   
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: -100px;
+        justify-content: space-around;
+    }
+    .project_frame
+    { 
+        margin: 0 10px 100px 10px;
+        width: 300px;
+        height: 600px;
+    }
+}
+@media only screen and (min-width: 901px)
+{   
+    .skills_images
+    {   
+        margin-top: -60px;
+    }
+    .skills_images img
+    {
+        width: 120px;
+        margin: 60px;
+    }
+    .project_frame
+    {
+        width: 350px;
+        height: 700px;
+    }
+}
+@media only screen and (min-width: 1024px)
+{   
+    section
+    {
+        width:70%;
+    }
+    .menu
+    {
+        display: flex;
+        background-color:  rgb(245, 203, 92);
+    }
+    .name_and_menu_button
+    {   
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 3%;
+        background-color:  rgb(245, 203, 92);
+        height: 50px;
+    }
+    .menu_name
+    {
+        width: 30%;
+    }
+    .navigation
+    {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+    }
+    #menu_button
+    {
+        display: none;
+    }
+    .ul_menu_list
+    {
+        background-color:  transparent;
+        animation-name: none;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        height: 100%;
+    }
+    
+}
+@media only screen and (min-width: 1100px)
+{   
+    
 }

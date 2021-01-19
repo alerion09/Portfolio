@@ -7,13 +7,13 @@
 }
 html
 {
-    font-size: 62,5%;
+    font-size: 62.5%;
     scroll-behavior: smooth;
     width: 100%;
 }
 body
 {   
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     width: 100%;
     background-color: rgb(51, 53, 51);
     color: rgb(232, 237, 223);
@@ -56,7 +56,7 @@ section
 }
 input, textarea
 {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
 }
 footer
 {
@@ -66,7 +66,7 @@ footer
     justify-content: center;
     width: 100%;
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 li
 {
@@ -140,7 +140,7 @@ a
 h2
 {   
     font-family: 'Oswald', sans-serif;
-    font-size: 2.1rem;
+    font-size: 3.3rem;
     padding-bottom:40px;
     color: rgb(245, 203, 92);
     text-align: center;
@@ -148,14 +148,14 @@ h2
 }
 h3
 {   
-    font-size: 1.7rem;
+    font-size: 2.7rem;
     font-family: 'Oswald', sans-serif;
     color: rgb(232, 237, 223);
     text-align: center;
 }
 .hello
 {
-    font-size: 2rem;
+    font-size: 3.2rem;
     padding-bottom:30px;
 }
 p
@@ -284,17 +284,21 @@ p
     background-color:rgb(36, 36, 35);
     margin-bottom: 60px;
     border-radius: 10px;
-    padding: 10px;
     display: flex;
+    padding: 10px;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .project_frame img
 {
     width: 80%;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+.project_frame p
+{
+    width:90%;
 }
 .project_buttons_container
 {
@@ -330,16 +334,16 @@ p
     }
     h2
     {   
-        font-size: 2.3rem;
+        font-size: 3.7rem;
         padding-bottom:80px;
     }
     h3
     {
-        font-size: 1.9rem;
+        font-size: 3.0rem;
     }
     .hello
     {
-        font-size: 2.2rem;
+        font-size: 3.5rem;
     }
     .photo_div
     {
@@ -356,10 +360,16 @@ p
         width: 120px;
         margin: 40px;
     }
+    .projects_container
+    {
+        
+        justify-content: space-around;
+    }
     .project_frame
     {
-        width: 400px;
-        height: 800px;
+        height: 620px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .form_submit
     {   
@@ -370,16 +380,12 @@ p
 {   
     h2
     {
-        font-size: 2.4rem;
-    }
-    h3
-    {
-        font-size: 1.7rem;
+        font-size: 3.8rem;
     }
     .hello
     {   
         padding-bottom:40px;
-        font-size: 2.3rem;
+        font-size: 3.7rem;
     }
     .photo_div
     {
@@ -393,34 +399,24 @@ p
     {
         margin: 50px;
     }
-    .projects_container
-    {   
-        width: 100%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-bottom: -100px;
-        justify-content: space-around;
-    }
-    .project_frame
-    { 
-        margin: 0 10px 100px 10px;
-        width: 300px;
-        height: 650px;
-    }
 }
 @media only screen and (min-width: 901px)
 {   
+    section
+    {
+        width:80%;
+    }
     h2
     {
-        font-size: 2.5rem;
+        font-size: 4rem;
     }
     h3
     {
-        font-size: 1.8rem;
+        font-size: 2.9rem;
     }
     .hello
     {   
-        font-size: 2.4rem;
+        font-size: 3.8rem;
     }
     .skills_images
     {   
@@ -431,33 +427,36 @@ p
         width: 120px;
         margin: 60px;
     }
-    .project_frame
-    {
-        width: 350px;
-        height: 750px;
-    }
 }
 @media only screen and (min-width: 1024px)
 {   
-    h2
-    {
-        font-size: 2.6rem;
-    }
-    h3
-    {
-        font-size: 1.8rem;
-    }
-    .hello
+    body
     {   
-        font-size: 2.5rem;
-    }
-    section
-    {
-        width:90%;
+        font-size: 2rem;
     }
     #about-me
     {
-        width: 70%;
+        width:65%;
+    }
+    #skills
+    {
+        width: 85%;
+    }
+    #projects
+    {
+        width:90%;
+    }
+    h2
+    {
+        font-size: 4.2rem;
+    }
+    h3
+    {
+        font-size: 2.9rem;
+    }
+    .hello
+    {   
+        font-size: 4rem;
     }
     .menu
     {
@@ -505,25 +504,30 @@ p
     {   
         margin-top: -80px;
     }
+    
     .skills_images img
-    {
+    {   
+        width: 120px;
         margin: 80px;
-        width: 140px;
     }
 }
 @media only screen and (min-width: 1280px)
 {   
+    #projects
+    {
+        width:90%;
+    }
     h2
     {
-        font-size: 2.7rem;
+        font-size: 4.3rem;
     }
     h3
     {
-        font-size: 1.8rem;
+        font-size: 2.9rem;
     }
     .hello
     {   
-        font-size: 2.6rem;
+        font-size: 4.1rem;
     }
     .photo_div
     {
@@ -545,7 +549,38 @@ p
         width: 50%;
     }
     #skills
+    {   
+        width: 80%;
+    }
+    #projects
     {
         width: 80%;
     }
+    .skills_images img
+    {
+        width: 130px;
+    }
+}
+@media only screen and (min-width: 1536px)
+{
+    #skills
+    {   
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 1610px)
+{   
+    .skills_images
+    {   
+        margin-top: -110px;
+    }
+    .skills_images img
+    {
+        width: 140px;
+        margin: 110px;
+    }
+}
+@media only screen and (min-width: 1920px)
+{
+    
 }

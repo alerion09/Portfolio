@@ -358,7 +358,9 @@ p
     .skills_images img
     {
         width: 120px;
-        margin: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 40px;
     }
     .projects_container
     {
@@ -397,14 +399,16 @@ p
     }
     .skills_images img
     {
-        margin: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
     }
 }
 @media only screen and (min-width: 901px)
 {   
     section
     {
-        width:80%;
+        width:85%;
     }
     h2
     {
@@ -425,7 +429,9 @@ p
     .skills_images img
     {
         width: 120px;
-        margin: 60px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 60px;
     }
 }
 @media only screen and (min-width: 1024px)
@@ -440,7 +446,7 @@ p
     }
     #skills
     {
-        width: 85%;
+        width: 80%;
     }
     #projects
     {
@@ -502,13 +508,14 @@ p
     }
     .skills_images
     {   
-        margin-top: -80px;
+        margin-top: -65px;
     }
-    
     .skills_images img
     {   
-        width: 120px;
-        margin: 80px;
+        width: 130px;
+        margin-left: 65px;
+        margin-right: 65px;
+        margin-top: 65px;
     }
 }
 @media only screen and (min-width: 1280px)
@@ -535,11 +542,13 @@ p
     }
     .skills_images
     {   
-        margin-top: -90px;
+        margin-top: -80px;
     }
     .skills_images img
-    {
-        margin: 90px;
+    {   
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 80px;
     }
 }
 @media only screen and (min-width: 1366px)
@@ -556,9 +565,16 @@ p
     {
         width: 80%;
     }
+    .skills_images
+    {   
+        margin-top: -85px;
+    }
     .skills_images img
-    {
-        width: 130px;
+    {   
+        width: 140px;
+        margin-left: 85px;
+        margin-right: 85px;
+        margin-top: 85px;
     }
 }
 @media only screen and (min-width: 1536px)
@@ -570,17 +586,29 @@ p
 }
 @media only screen and (min-width: 1610px)
 {   
+    #skills
+    {
+        width: 70%;
+    }
     .skills_images
     {   
-        margin-top: -110px;
+        margin-top: -100px;
     }
     .skills_images img
-    {
-        width: 140px;
-        margin: 110px;
+    {   
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 100px;
     }
 }
-@media only screen and (min-width: 1920px)
+@media only screen and (min-width: 1930px)
 {
-    
+    .skills_images img
+    {   
+        width: 160px;
+    }
+    #projects
+    {
+        width: 70%;
+    }
 }

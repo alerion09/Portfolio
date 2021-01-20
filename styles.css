@@ -66,7 +66,7 @@ footer
     justify-content: center;
     width: 100%;
     padding: 10px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 li
 {
@@ -194,6 +194,7 @@ p
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .link_icons img
 {
@@ -388,9 +389,21 @@ p
     {   
         width: 35%;
     }
+    .footer_div
+    {
+        width: 40%;
+    }
+    .link_icons img
+    {
+        width: 50px;
+    }
 }
 @media only screen and (min-width: 801px)
 {   
+    body
+    {
+        font-size: 1.8rem;
+    }
     h2
     {
         font-size: 4.2rem;
@@ -532,6 +545,10 @@ p
         margin-right: 65px;
         margin-top: 65px;
     }
+    .footer_div
+    {
+        width: 30%;
+    }
 }
 @media only screen and (min-width: 1280px)
 {   
@@ -592,6 +609,10 @@ p
         margin-right: 80px;
         margin-top: 80px;
     }
+    .footer_div
+    {
+        width: 25%;
+    }
 }
 @media only screen and (min-width: 1366px)
 {   
@@ -614,6 +635,10 @@ p
         margin-right: 85px;
         margin-top: 85px;
     }
+    .footer_div
+    {
+        width: 20%;
+    }
 }
 @media only screen and (min-width: 1536px)
 {   
@@ -623,7 +648,7 @@ p
     }
     h2
     {
-        font-size: 5.5rem;
+        font-size: 5.2rem;
     }
     h3
     {

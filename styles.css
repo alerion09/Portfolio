@@ -342,7 +342,7 @@ p
     }
     h2
     {   
-        font-size: 3.7rem;
+        font-size: 4rem;
         padding-bottom:80px;
     }
     h3
@@ -355,7 +355,7 @@ p
     }
     .hello
     {
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
     .photo_div
     {
@@ -393,12 +393,11 @@ p
 {   
     h2
     {
-        font-size: 3.8rem;
+        font-size: 4.2rem;
     }
     .hello
     {   
         padding-bottom:40px;
-        font-size: 3.7rem;
     }
     .skills_images
     {   
@@ -419,7 +418,7 @@ p
     }
     h2
     {
-        font-size: 4rem;
+        font-size: 4.3rem;
         padding-bottom: 90px;
     }
     h3
@@ -448,6 +447,10 @@ p
     {   
         font-size: 1.9rem;
     }
+    section
+    {
+        margin-bottom: 140px;
+    }
     #about-me
     {
         width:65%;
@@ -466,7 +469,7 @@ p
     }
     h2
     {
-        font-size: 4.2rem;
+        font-size: 4.5rem;
     }
     h3
     {
@@ -474,7 +477,7 @@ p
     }
     .hello
     {   
-        font-size: 4rem;
+        font-size: 4.8rem;
     }
     .menu
     {
@@ -535,6 +538,10 @@ p
     body
     {
         font-size: 2.2rem;
+    }
+    section
+    {
+        margin-bottom: 160px;
     }
     .content
     {
@@ -609,7 +616,19 @@ p
     }
 }
 @media only screen and (min-width: 1536px)
-{
+{   
+    section
+    {
+        margin-bottom: 180px;
+    }
+    h2
+    {
+        font-size: 5.5rem;
+    }
+    h3
+    {
+        font-size: 2.9rem;
+    }
     #skills
     {   
         width: 75%;

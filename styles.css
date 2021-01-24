@@ -1,3 +1,13 @@
+@font-face
+{
+    font-family: 'Cardo';
+    src: url(./Fonts/Cardo-Regular.ttf);
+}
+@font-face
+{
+    font-family: 'Oswald';
+    src: url(./Fonts/Oswald-Regular.ttf);
+}
 *
 {
     margin: 0;

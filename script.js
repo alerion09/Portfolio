@@ -39,7 +39,7 @@ function appStart()
         //If either of form input is empty then ..
             if(name.value == "")
             {
-                name.style = 'border: solid 1px rgb(245, 92, 92)';
+                name.style = 'box-shadow: 0 0 0 1px rgb(245, 92, 92);';
                 event.preventDefault();
             }
             else
@@ -48,7 +48,7 @@ function appStart()
             }
             if(email.value == "" || !email.value.match(mailFormat))
             {
-                email.style = 'border: solid 1px rgb(245, 92, 92)';
+                email.style = 'box-shadow: 0 0 0 1px rgb(245, 92, 92);';
                 event.preventDefault();
             }
             else
@@ -57,7 +57,7 @@ function appStart()
             }
             if(message.value == "")
             {
-                message.style = 'border: solid 1px rgb(245, 92, 92)';
+                message.style = 'box-shadow: 0 0 0 1px rgb(245, 92, 92);';
                 event.preventDefault();
             }
             else

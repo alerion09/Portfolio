@@ -182,8 +182,14 @@ h3
     padding-bottom:30px;
 }
 p
+{   
+    text-align:left;
+    padding-bottom: 5px;
+}
+mark
 {
-    text-align:center;
+    background:none;
+    color:  rgb(245, 203, 92);
 }
 .content
 {

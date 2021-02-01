@@ -60,7 +60,7 @@ function appStart()
                 message.style = 'box-shadow: 0 0 0 1px rgb(245, 92, 92);';
                 event.preventDefault();
             }
-            else
+            else 
             {
                 message.style = 'border: none';
             }

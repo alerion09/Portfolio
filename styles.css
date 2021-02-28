@@ -2,11 +2,13 @@
 {
     font-family: 'Cardo';
     src: url(./Fonts/Cardo-Regular.ttf);
+    font-display: swap;
 }
 @font-face
 {
     font-family: 'Oswald';
     src: url(./Fonts/Oswald-Regular.ttf);
+    font-display: swap;
 }
 *
 {

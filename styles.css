@@ -260,7 +260,7 @@ mark
     width: 100px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
 
 }
 .div_form_contact input::placeholder, textarea::placeholder
@@ -417,7 +417,7 @@ mark
         width: 120px;
         margin-left: 40px;
         margin-right: 40px;
-        margin-top: 40px;
+        margin-top: 60px;
     }
     .projects_container
     {
@@ -465,7 +465,6 @@ mark
     {
         margin-left: 50px;
         margin-right: 50px;
-        margin-top: 50px;
     }
 }
 @media only screen and (min-width: 901px)

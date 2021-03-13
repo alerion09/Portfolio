@@ -359,20 +359,20 @@ mark
 .project_frame img
 {
     max-width: 80%;
+    margin-bottom: 15px;
     margin-top: 10px;
-    margin-bottom: 20px;
 }
 .project_frame p
 {
-    width:75%;
+    width:70%;
 }
 .project_buttons_container
 {
     display: flex;
     justify-content: space-between;
     width: 70%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
 .project_one_button_container
@@ -438,7 +438,7 @@ mark
     }
     .project_frame
     {
-        height: 620px;
+        height: 560px;
         margin-left: 10px;
         margin-right: 10px;
     }

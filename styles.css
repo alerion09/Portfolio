@@ -247,7 +247,7 @@ mark
 }
 .skills_images
 {   
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -342,17 +342,17 @@ mark
 }
 .project_frame p
 {
-    text-align: center;
+    font-size: 1.7rem;
 }
 .project_frame img
 {
-    width: 80%;
+    max-width: 80%;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 .project_frame p
 {
-    width:90%;
+    width:75%;
 }
 .project_buttons_container
 {

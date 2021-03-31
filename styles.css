@@ -41,11 +41,11 @@ body
 }
 ::-webkit-scrollbar-thumb 
 {
-    background-color: rgb(91, 91, 91);
+    background-color: rgb(81, 81, 81);
 }
 ::-webkit-scrollbar-thumb:hover 
 {
-    background-color: rgb(81, 81, 81);
+    background-color: rgb(91, 91, 91);
 }
 .container
 {
@@ -324,6 +324,7 @@ mark
     width: 150px;
     background-color: rgb(245, 203, 92);
     text-align: center;
+    cursor: pointer;
 }
 .captcha
 {
@@ -605,10 +606,19 @@ mark
     {
         width: 30%;
     }
+    @keyframes fade-in {
+        0% {
+            opacity: 20%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
     nav li:hover
     {
         height: 100%;
         background-color: rgb(51, 53, 51);
+        animation: fade-in 400ms;
     }
     nav li:hover > a
     {
@@ -618,6 +628,7 @@ mark
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: fade-in 1s;
     }
 }
 @media only screen and (min-width: 1280px)
